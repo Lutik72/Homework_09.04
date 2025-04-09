@@ -30,3 +30,36 @@ console.log(a%b);
 ![/](picture/sum.png)
 3. результат вывода консоли. Файл с кодом index.html и index.js
 ![/](picture/расчеты.png)
+### Задание 4
+1. Выведется: atrue
+2. Выведется: 1
+3. Выведется: 2
+4. Выведется: 2
+5. Выведется: 0
+6. Выведется: true1
+### Задание 5
+1. файл с кодом index2.html и index2.js
+2. код
+```
+   if (test1 === test2) {
+    console.log("Значения равны");
+} else {
+    console.log("Значения не равны");
+}
+```
+3. код
+```
+let num1 = parseFloat(prompt("Введите первое число: "));
+let num2 = parseFloat(prompt("Введите второе число: "));
+let minimum = Math.min(num1, num2);
+alert(`Минимальное число: ${minimum}`);
+```
+4. код
+```
+let number = parseFloat(prompt("Введите число: "));
+if (number > 0 && number < 15) {
+    alert("Число больше нуля и меньше 15.");
+} else {
+    alert("Число не удовлетворяет условиям.");
+}
+```
